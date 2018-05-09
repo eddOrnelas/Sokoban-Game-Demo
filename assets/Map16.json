@@ -1,0 +1,12 @@
+{ "columns":13,
+ "image":"..\/..\/..\/Downloads\/kenney_sokobanPack\/Tilesheet\/sokoban_tilesheet.png",
+ "imageheight":256,
+ "imagewidth":416,
+ "margin":0,
+ "name":"Map16",
+ "spacing":0,
+ "tilecount":416,
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset"
+}
