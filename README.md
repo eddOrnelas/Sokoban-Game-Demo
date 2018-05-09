@@ -3,6 +3,16 @@ Sokoban Game Demo created using PhaserJs
 
 Play the demo here: (https://eddornelas.github.io/Sokoban-Game-Demo/)
 
+## Details
+There are just 5 levels created
+Leveles were created with Tiled map editor
+The levels uses 5 layers of data:
+ - Floor
+ - Walls
+ - Boxes
+ - Holders
+ - Player
+
 ## How to play
 User keyboard arrows or using mouse/touch swipe gestures (up, down, left, right)
 
@@ -13,7 +23,7 @@ User keyboard arrows or using mouse/touch swipe gestures (up, down, left, right)
 PhaserJs
 (https://phaser.io/)
 
-### -- Tiles, Game Pad Buttons, Start Buttons and sound effects
+### -- Tiles, Buttons
 Kenney
 (https://opengameart.org/users/kenney)
 
