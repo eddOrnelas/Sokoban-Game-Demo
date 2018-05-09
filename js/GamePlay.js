@@ -428,16 +428,19 @@ MainGameContainer.GamePlay.prototype = {
 	handleRestarClick() {
 	  // remove handlers and reset
 	  // this.game.state.clearCurrentState();
+	  this.bgMusic.stop();
 	  this.game.state.restart(true,false);
 	},
 	handleReturnToMenuClick() {
 	  // remove handlers and reset
 	  // this.game.state.clearCurrentState();
+	  this.bgMusic.stop();
 	  this.game.state.start('GameMainMenu',true,false);
 	},
 	handleReturnToLevelSelectClick() {
 	  // remove handlers and reset
 	  // this.game.state.clearCurrentState();
+	  this.bgMusic.stop();
 	  this.game.state.start('GameLevelSelect',true,false);
 	},
 	updateMoves(val) {
